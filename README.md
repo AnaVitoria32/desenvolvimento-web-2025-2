@@ -28,3 +28,10 @@ H-Viabilidade: Com app no navegador(HTML/CSS/JS + armazenamento local), criar, e
 Validação: medir no protótipo com 30 ações; meta: pelo menos 27 de 30 ações (9/10) em 1s ou menos.
 
 ## 6) Fluxo principal e primeira fatia
+1) O usuário faz login → 2) Clica em criar dieta → 3) O sistema salva o que foi criado → 4) O paciente recebe a dieta que fica exposta em seu dashboard.
+
+**Primeira fatia vertical (escopo mínimo):**  
+Inclui: Login básico, criação de dieta para o paciente, salvar as informações, enviar para o paciente a dieta.  
+Critérios de aceite:
+- criar -> vai aparecer uma página para criação da dieta;
+- encerrar -> tudo que foi escrito será apagado e sai da tela.
