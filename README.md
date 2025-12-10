@@ -35,3 +35,8 @@ Inclui: Login básico, criação de dieta para o paciente, salvar as informaçõ
 Critérios de aceite:
 - criar -> vai aparecer uma página para criação da dieta;
 - encerrar -> tudo que foi escrito será apagado e sai da tela.
+
+# 7) System Design
+# 7.1) C4 Context Diagram
+![C4 Context](blob:https://www.figma.com/1a092e84-282c-4141-8662-97ec1641f19d)
+Este diagrama de contexto mostra o sistema como um bloco central, interagindo com os usuários (Nutricionista e Paciente) e com sistemas externos. O backend se comunica com o banco de dados para persistência de dados e com serviços adicionais (e-mail, notificações) caso necessário.
