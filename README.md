@@ -40,3 +40,12 @@ Critérios de aceite:
 # 7.1) C4 Context Diagram
 ![C4 Context](blob:https://www.figma.com/1a092e84-282c-4141-8662-97ec1641f19d)
 Este diagrama de contexto mostra o sistema como um bloco central, interagindo com os usuários (Nutricionista e Paciente) e com sistemas externos. O backend se comunica com o banco de dados para persistência de dados e com serviços adicionais (e-mail, notificações) caso necessário.
+# 7.2) C4 Containers (Nível 2)
+O diagrama de containers detalha os componentes internos do sistema, mostrando como o frontend se comunica com o backend via HTTP/HTTPS e como o backend interage com o banco de dados. JWT é usado para autenticação e autorização, garantindo que apenas usuários válidos acessem seus dados.
+# 7.3) Modelo de Dados (ERD)
+O diagrama de entidade-relacionamento ilustra a estrutura do banco de dados, destacando a relação de um para muitos entre pacientes e suas dietas. Cada paciente pode ter múltiplas dietas, e todas as relações são mantidas com integridade referencial.
+# 7.4) Diagramas de Sequência de um fluxo crítico
+# Sequência 1: Login do usuário:
+Este diagrama mostra o fluxo de login, incluindo autenticação e retorno do JWT, garantindo que apenas usuários válidos acessem o sistema.
+# Sequência 2: CRUD de Dietas (ex.: criar dieta):
+Este diagrama ilustra o fluxo de criação de uma dieta, mostrando a sequência de requisições entre frontend, backend e banco de dados, e como o paciente recebe o plano alimentar no seu painel.
