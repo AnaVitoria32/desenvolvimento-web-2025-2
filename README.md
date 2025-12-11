@@ -48,6 +48,7 @@ O diagrama de containers detalha os componentes internos do sistema, mostrando c
 O diagrama de entidade-relacionamento ilustra a estrutura do banco de dados, destacando a relação de um para muitos entre pacientes e suas dietas. Cada paciente pode ter múltiplas dietas, e todas as relações são mantidas com integridade referencial.
 # 7.4) Diagramas de Sequência de um fluxo crítico
 # Sequência 1: Login do usuário:
+![CLogin](assets/Imagem4.png)
 Este diagrama mostra o fluxo de login, incluindo autenticação e retorno do JWT, garantindo que apenas usuários válidos acessem o sistema.
 # Sequência 2: CRUD de Dietas (ex.: criar dieta):
 Este diagrama ilustra o fluxo de criação de uma dieta, mostrando a sequência de requisições entre frontend, backend e banco de dados, e como o paciente recebe o plano alimentar no seu painel.
