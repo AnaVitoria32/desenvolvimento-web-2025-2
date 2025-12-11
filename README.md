@@ -41,8 +41,10 @@ Critérios de aceite:
 ![C4 Context](assets/Imagem1.png)
 Este diagrama de contexto mostra o sistema como um bloco central, interagindo com os usuários (Nutricionista e Paciente) e com sistemas externos. O backend se comunica com o banco de dados para persistência de dados e com serviços adicionais (e-mail, notificações) caso necessário.
 # 7.2) C4 Containers (Nível 2)
+![C4 Containers](assets/Imagem2.png)
 O diagrama de containers detalha os componentes internos do sistema, mostrando como o frontend se comunica com o backend via HTTP/HTTPS e como o backend interage com o banco de dados. JWT é usado para autenticação e autorização, garantindo que apenas usuários válidos acessem seus dados.
 # 7.3) Modelo de Dados (ERD)
+![CModelo](assets/Imagem3.png)
 O diagrama de entidade-relacionamento ilustra a estrutura do banco de dados, destacando a relação de um para muitos entre pacientes e suas dietas. Cada paciente pode ter múltiplas dietas, e todas as relações são mantidas com integridade referencial.
 # 7.4) Diagramas de Sequência de um fluxo crítico
 # Sequência 1: Login do usuário:
