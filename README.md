@@ -38,7 +38,7 @@ Critérios de aceite:
 
 # 7) System Design
 # 7.1) C4 Context Diagram
-![C4 Context](blob:https://www.figma.com/1a092e84-282c-4141-8662-97ec1641f19d)
+![C4 Context](C:\Users\ana\Downloads\Frame 1 (6).png)
 Este diagrama de contexto mostra o sistema como um bloco central, interagindo com os usuários (Nutricionista e Paciente) e com sistemas externos. O backend se comunica com o banco de dados para persistência de dados e com serviços adicionais (e-mail, notificações) caso necessário.
 # 7.2) C4 Containers (Nível 2)
 O diagrama de containers detalha os componentes internos do sistema, mostrando como o frontend se comunica com o backend via HTTP/HTTPS e como o backend interage com o banco de dados. JWT é usado para autenticação e autorização, garantindo que apenas usuários válidos acessem seus dados.
