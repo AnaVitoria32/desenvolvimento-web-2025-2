@@ -51,4 +51,5 @@ O diagrama de entidade-relacionamento ilustra a estrutura do banco de dados, des
 ![CLogin](assets/Imagem4.png)
 Este diagrama mostra o fluxo de login, incluindo autenticação e retorno do JWT, garantindo que apenas usuários válidos acessem o sistema.
 # Sequência 2: CRUD de Dietas (ex.: criar dieta):
+![CDieta](assets/Imagem5.png)
 Este diagrama ilustra o fluxo de criação de uma dieta, mostrando a sequência de requisições entre frontend, backend e banco de dados, e como o paciente recebe o plano alimentar no seu painel.
